@@ -1,4 +1,4 @@
-# Paso a Paso creación App
+# 👩‍💻Paso a paso creación App
 
 1. Instalar plantilla react PWA 
 npx create-react-app my- app template cra-template-pwa
@@ -27,5 +27,7 @@ colocar en el navegador:
 http://www.google.com/s2/favicons?domain=dominiopagina.com
 
 9. Esquematizar posibles componentes de la app
+![Componentes](/src/assets/EsquemaComponentes.png)
 
 10. Realizar Boilerplate inicial de la app
+![Componentes](/src/assets/BoilerPlate.png)
