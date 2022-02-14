@@ -1,0 +1,44 @@
+@import './variables.scss';
+
+#mainContainer {
+  height: calc(100% + 45px);
+  width: 500px;
+  // top: -10px;
+  background-color: $color-light;
+  box-shadow: $border-shadow;
+  font-family: $letter-italic;
+  font-size: 16px;
+  border-bottom-left-radius: 30px;
+  transform: rotate(-5deg);
+  transform-origin: top left;
+  flex-grow: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#background {
+  display: flex;
+  transform: rotate(5deg);
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+
+  .login {
+    color: $color-letter-login-top;
+  }
+      
+  .signUp {
+    color: $color-light;
+    background: $color-registerBottom;
+    border-radius: 20px;
+    padding: 4px 10px;
+    display: block;
+    margin-left: 20px;
+  }
+}
+
+
+
+

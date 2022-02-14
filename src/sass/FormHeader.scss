@@ -1,0 +1,42 @@
+@import './variables.scss';
+
+#formHeader {
+  // background-color: red;
+  width: 90%;
+  height: 50px;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.left {
+  display: flex;
+
+}
+
+#arrow {
+  margin: 0px 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+h1 {
+  font-family: $letter-italic;
+  letter-spacing: .5px;
+  font-size: 20px;
+}
+
+p {
+  font-family: $letter-type;
+  color: $color-grey;
+  font-size: 14px;
+}

@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+#navBar {
+  display: flex;
+  align-items: center;
+  // flex-grow: 2.5;
+  // display: grid;
+  // grid-template-columns: 15% 20% 25% 15% 25%;
+  padding-left: 0%;
+
+  li {
+    color: $color-letter;
+    list-style:none;
+    font-family: $letter-italic;
+    font-size: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+}
