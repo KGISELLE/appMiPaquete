@@ -31,11 +31,23 @@ input {
   margin: 6px 0;
   font-size: 16px;
   font-family: "Heebo-Regular";
+  outline: none;
 
   border-top: none;
   border-right: none;
   border-left: none;
   border-bottom-color: #ccc;
+  border-bottom-width: 2.5px;
+
+  transition: all 0.5s;
+}
+
+input:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom-color: $color-secondary;
+  
 }
 
 ::placeholder { color: #ccc; }
