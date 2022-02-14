@@ -14,7 +14,19 @@
     font-family: $letter-italic;
     font-size: 18px;
     margin: 0 10px;
+    text-align: center;
     cursor: pointer;
   }
 
+}
+
+#navBar li:hover {
+  color: $color-secondary;
+}
+
+
+@media screen and (max-width:800px) {
+  #navBar {
+    display: none;
+  }
 }

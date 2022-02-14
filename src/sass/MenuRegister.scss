@@ -29,16 +29,32 @@
     color: $color-letter-login-top;
   }
       
-  .signUp {
-    color: $color-light;
-    background: $color-registerBottom;
-    border-radius: 20px;
-    padding: 4px 10px;
-    display: block;
-    margin-left: 20px;
-  }
+}
+
+.signUp {
+  color: $color-light;
+  background: $color-registerBottom;
+  border-radius: 20px;
+  padding: 4px 10px;
+  display: block;
+  margin-left: 20px;
+}
+
+#bars {
+  display: none;
 }
 
 
+@media screen and (max-width:800px) {
+  .login {
+    display: none;
+  }
 
+  .signUp {
+    display: none;
+  }
 
+  #bars {
+    display: block;
+  }
+}

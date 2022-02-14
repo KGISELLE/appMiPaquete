@@ -5,14 +5,21 @@
   margin-bottom: 35px;
   padding: 20px;
   width: 900px;
-  max-height: 90%;
+  max-height: 80%;
   box-sizing: border-box;
-
   border-radius: 12px;
   background: $color-light;
-  // display: flex;
-  // flex-direction: column;
+  
   align-items: center;
   overflow: auto;
   box-shadow: $border-shadow-form;
+}
+
+@media screen and (max-width:800px) {
+  #containerLogin {
+    margin-top: 70px;
+    padding-top: 10px;
+    width: 90%;
+    max-height: 100%;
+  }
 }

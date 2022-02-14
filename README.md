@@ -30,4 +30,5 @@ http://www.google.com/s2/favicons?domain=dominiopagina.com
 ![Componentes](/src/assets/EsquemaComponentes.png)
 
 10. Realizar Boilerplate inicial de la app
+
 ![Componentes](/src/assets/BoilerPlate.png)

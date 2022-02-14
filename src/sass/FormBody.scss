@@ -1,9 +1,5 @@
 @import './variables.scss';
 
-#formBody {
-  overflow: scroll;
-}
-
 #formContent {
   width: 100%;
   max-width: 100%;
@@ -13,12 +9,12 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 #spaceForm {
   margin: 10px 30px 10px 10px;
-  width: 100%;
+  width: 30vw;
   height: auto;
   font-family: $letter-type;
   color: $color-grey;
@@ -73,3 +69,30 @@ input {
   cursor: pointer;
 }
 
+
+@media screen and (max-width:800px) {
+  #formContent {
+    flex-flow: column wrap;
+  }
+
+  #spaceForm {
+    width: 65vw;
+  }
+
+  #formButtons {
+    flex-flow: column-reverse wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+  }
+
+  #cancelButton {
+    margin-top: 10px;
+    width: 85%;
+  }
+
+  #nextButton {
+    width: 85%;
+  }
+
+}
