@@ -35,7 +35,14 @@ http://www.google.com/s2/favicons?domain=dominiopagina.com
 
 <br>
 
-***Pagina Terminada***
+***Deploy Página Terminada***
+
+Encontraras la vista final de la página en el siguiente link: 
+https://clon-mipaquete-registro.netlify.app
+
+<br>
+
+***Página Terminada***
 
 Versión Desktop
 ![Version Desktop](/src/assets/desktopVersion.png)
